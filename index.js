@@ -5,8 +5,14 @@ function myAnimal() {
 }
 
 function yourAnimal() {
+<<<<<<< HEAD
   animal = 'cat'
   return animal
+=======
+  return function myAnimal() {
+    return animal
+  }
+>>>>>>> 7f487a3d64c6e1a8144e1dc48ce30b85642fe1ad
 }
 
 function add2(n) {
